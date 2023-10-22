@@ -1,0 +1,260 @@
+/* src/components/SignIn.css */
+
+.sign-in-container {
+  text-align: center;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 400px;
+  margin: 0 auto;
+}
+
+.sign-in-container img {
+  max-width: 100px;
+  margin-bottom: 20px;
+}
+
+.sign-in-container h2 {
+  font-size: 20px;
+  color: #333;
+}
+
+.form-field {
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.form-field label {
+  display: block;
+  font-weight: bold;
+}
+
+.form-field input[type="text"],
+.form-field input[type="email"],
+.form-field textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-field .invalid-email {
+  border-color: red;
+  color: red;
+}
+
+.form-field input::placeholder,
+.form-field textarea::placeholder {
+  color: #888;
+}
+
+.invalid-message {
+  color: red;
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+button {
+  background-color: yellow;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.logo {
+  position: absolute;
+  top: 81px;
+  left: 139px;
+  width: 76px;
+  height: 76px;
+}
+
+.heading {
+  position: absolute;
+  top: 188px;
+  left: 139px;
+  width: 471px;
+  height: 55px;
+  text-align: left;
+  font: normal 200 40px/52px Manrope;
+  letter-spacing: 0px;
+  color: #05253C;
+  opacity: 1;
+}
+
+.first-name-field {
+  position: absolute;
+  top: 273px;
+  left: 139px;
+  width: 89px;
+  height: 21px;
+  text-align: left;
+  font: normal normal medium 16px/28px 'Plus Jakarta Sans';
+  letter-spacing: 0px;
+  color: #05253C;
+  opacity: 1;
+}
+
+.first-name-input {
+  position: absolute;
+  top: 309px;
+  left: 139px;
+  width: 155px;
+  height: 15px;
+  text-align: left;
+  font: normal medium 12px/24px 'Plus Jakarta Sans';
+  letter-spacing: 0px;
+  color: #DBDBDB;
+  opacity: 1;
+}
+
+.last-name-field {
+  position: absolute;
+  top: 359px;
+  left: 139px;
+  width: 88px;
+  height: 21px;
+  text-align: left;
+  font: normal normal medium 16px/28px 'Plus Jakarta Sans';
+  letter-spacing: 0px;
+  color: #05253C;
+  opacity: 1;
+}
+
+.last-name-input {
+  position: absolute;
+  top: 395px;
+  left: 139px;
+  width: 154px;
+  height: 15px;
+  text-align: left;
+  font: normal medium 12px/24px 'Plus Jakarta Sans';
+  letter-spacing: 0px;
+  color: #DBDBDB;
+  opacity: 1;
+}
+
+.email-field {
+  position: absolute;
+  top: 445px;
+  left: 139px;
+  width: 115px;
+  height: 21px;
+  text-align: left;
+  font: normal normal medium 16px/28px 'Plus Jakarta Sans';
+  letter-spacing: 0px;
+  color: #05253C;
+  opacity: 1;
+}
+
+.email-input {
+  position: absolute;
+  top: 484px;
+  left: 139px;
+  width: 179px;
+  height: 15px;
+  text-align: left;
+  font: normal medium 12px/24px 'Plus Jakarta Sans';
+  letter-spacing: 0px;
+  color: #DBDBDB;
+  opacity: 1;
+}
+
+.email-input.invalid-email {
+  position: absolute;
+  top: 484px;
+  left: 139px;
+  width: 111px;
+  height: 15px;
+  text-align: left;
+  font: normal medium 12px/24px 'Plus Jakarta Sans';
+  letter-spacing: 0px;
+  color: #FF0000;
+  opacity: 1;
+}
+
+.invalid-message {
+  position: absolute;
+  top: 509px;
+  left: 464px;
+  width: 119px;
+  height: 15px;
+  text-align: left;
+  font: normal normal medium 12px/24px 'Plus Jakarta Sans';
+  letter-spacing: 0px;
+  color: #FF0000;
+  opacity: 1;
+}
+
+.address-field {
+  position: absolute;
+  top: 534px;
+  left: 139px;
+  width: 72px;
+  height: 21px;
+  text-align: left;
+  font: normal normal medium 16px/28px 'Plus Jakarta Sans';
+  letter-spacing: 0px;
+  color: #05253C;
+  opacity: 1;
+}
+
+.address-input {
+  position: absolute;
+  top: 573px;
+  left: 139px;
+  width: 148px;
+  height: 15px;
+  text-align: left;
+  font: normal medium 12px/24px 'Plus Jakarta Sans';
+  letter-spacing: 0px;
+  color: #DBDBDB;
+  opacity: 1;
+}
+
+.submit-button {
+  position: absolute;
+  top: 643px;
+  left: 139px;
+  width: 168px;
+  height: 45px;
+  background: #FFDC47 0% 0% no-repeat padding-box;
+  opacity: 1;
+  border: none;
+  cursor: pointer;
+}
+
+.submit-text {
+  position: absolute;
+  top: 655px;
+  left: 195px;
+  width: 56px;
+  height: 21px;
+  text-align: left;
+  font: normal normal 600 16px/28px 'Plus Jakarta Sans';
+  letter-spacing: 0px;
+  color: #05253C;
+  opacity: 1;
+}
+
+.signing-page {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1366px;
+  height: 768px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.right-image {
+  position: absolute;
+  top: 0;
+  left: 783px;
+  width: 583px;
+  height: 768px;
+  
+}
