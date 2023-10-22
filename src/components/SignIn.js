@@ -28,7 +28,7 @@ function SignIn() {
 
   return (
     <div className="signing-page">
-      <img src="path-to-your-logo-image.png" alt="Company Logo" className="logo" />
+      <img src="assets/logo.png" alt="Company Logo" className="logo" />
       <h2 className="heading">We'd love to hear from you.</h2>
       <form onSubmit={handleSubmit}>
         <div className="form-field">
@@ -89,7 +89,7 @@ function SignIn() {
         <button className="submit-button"></button>
         <span className="submit-text">Submit</span>
       </form>
-      <img src="path-to-your-image.jpg" alt="Image" className="right-image" />
+      <img src="assets/background.png" alt="Image" className="right-image" />
     </div>
   );
 }

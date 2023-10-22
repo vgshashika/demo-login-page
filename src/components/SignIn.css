@@ -1,6 +1,9 @@
 /* src/components/SignIn.css */
+/* Example for using Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500&family=Plus+Jakarta+Sans:wght@400;700&display=swap');
 
-.sign-in-container {
+
+/*.sign-in-container {
   text-align: center;
   padding: 20px;
   background-color: #f4f4f4;
@@ -8,17 +11,17 @@
   border-radius: 5px;
   width: 400px;
   margin: 0 auto;
-}
+}*/
 
-.sign-in-container img {
+/*.sign-in-container img {
   max-width: 100px;
   margin-bottom: 20px;
-}
+}*/
 
-.sign-in-container h2 {
+/*.sign-in-container h2 {
   font-size: 20px;
   color: #333;
-}
+}*/
 
 .form-field {
   text-align: left;
@@ -33,7 +36,7 @@
 .form-field input[type="text"],
 .form-field input[type="email"],
 .form-field textarea {
-  width: 100%;
+  width: 43%;
   padding: 8px;
   border: 1px solid #ccc;
   border-radius: 5px;
@@ -66,7 +69,7 @@ button {
 
 .logo {
   position: absolute;
-  top: 81px;
+  top: 51px;
   left: 139px;
   width: 76px;
   height: 76px;
@@ -74,12 +77,12 @@ button {
 
 .heading {
   position: absolute;
-  top: 188px;
+  top: 128px;
   left: 139px;
   width: 471px;
   height: 55px;
   text-align: left;
-  font: normal 200 40px/52px Manrope;
+  font: normal 200 38px/52px Manrope;
   letter-spacing: 0px;
   color: #05253C;
   opacity: 1;
@@ -107,7 +110,7 @@ button {
   text-align: left;
   font: normal medium 12px/24px 'Plus Jakarta Sans';
   letter-spacing: 0px;
-  color: #DBDBDB;
+  color: #000000;
   opacity: 1;
 }
 
@@ -133,7 +136,7 @@ button {
   text-align: left;
   font: normal medium 12px/24px 'Plus Jakarta Sans';
   letter-spacing: 0px;
-  color: #DBDBDB;
+  color: #010101;
   opacity: 1;
 }
 
@@ -159,7 +162,7 @@ button {
   text-align: left;
   font: normal medium 12px/24px 'Plus Jakarta Sans';
   letter-spacing: 0px;
-  color: #DBDBDB;
+  color: #000;
   opacity: 1;
 }
 
@@ -211,7 +214,7 @@ button {
   text-align: left;
   font: normal medium 12px/24px 'Plus Jakarta Sans';
   letter-spacing: 0px;
-  color: #DBDBDB;
+  color: #000000;
   opacity: 1;
 }
 
@@ -229,7 +232,7 @@ button {
 
 .submit-text {
   position: absolute;
-  top: 655px;
+  top: 650px;
   left: 195px;
   width: 56px;
   height: 21px;
@@ -253,8 +256,8 @@ button {
 .right-image {
   position: absolute;
   top: 0;
-  left: 783px;
-  width: 583px;
+  left: 769px;
+  width: 739px;
   height: 768px;
   
 }
