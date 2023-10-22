@@ -1,14 +1,38 @@
 // src/components/SignIn.js
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './SignIn.css';
 
 function SignIn() {
+
+  const [screenWidth, setScreenWidth] = useState(window.innerWidth);
+  const resizeListener = () => {
+    setScreenWidth(window.innerWidth);
+  };
+  
+  // Add an event listener to track window resize
+  useEffect(() => {
+    const resizeListener = () => {
+      setScreenWidth(window.innerWidth);
+    };
+
+    window.addEventListener('resize', resizeListener);
+
+    return () => {
+      window.removeEventListener('resize', resizeListener);
+    };
+  }, []);
+  
+
+
+
   const [formData, setFormData] = useState({
     firstName: '',
     lastName: '',
     emailAddress: '',
     address: '',
   });
+
+  //Invalid email address
 
   const [invalidEmail, setInvalidEmail] = useState(false);
 
@@ -28,7 +52,7 @@ function SignIn() {
 
   return (
     <div className="signing-page">
-      <img src="assets/logo.png" alt="Company Logo" className="logo" />
+      <img src="assets/logo.png" alt="Company Logo" className="logo" /> 
       <h2 className="heading">We'd love to hear from you.</h2>
       <form onSubmit={handleSubmit}>
         <div className="form-field">
@@ -89,7 +113,9 @@ function SignIn() {
         <button className="submit-button"></button>
         <span className="submit-text">Submit</span>
       </form>
-      <img src="assets/background.png" alt="Image" className="right-image" />
+      {screenWidth >= 768 && (
+        <img src="assets/background.png" alt="Image" className="right-image" />
+      )}
     </div>
   );
 }
