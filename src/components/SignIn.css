@@ -3,25 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500&family=Plus+Jakarta+Sans:wght@400;700&display=swap');
 
 
-/*.sign-in-container {
-  text-align: center;
-  padding: 20px;
-  background-color: #f4f4f4;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  width: 400px;
-  margin: 0 auto;
-}*/
-
-/*.sign-in-container img {
-  max-width: 100px;
-  margin-bottom: 20px;
-}*/
-
-/*.sign-in-container h2 {
-  font-size: 20px;
-  color: #333;
-}*/
 
 .form-field {
   text-align: left;
@@ -261,3 +242,10 @@ button {
   height: 768px;
   
 }
+
+
+
+
+
+
+
